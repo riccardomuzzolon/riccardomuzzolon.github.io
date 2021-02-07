@@ -39,10 +39,16 @@ main #content {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    overflow: scroll;
+  }
+  main #content {
+    top: 0px;
+  }
   main h1 {
   	font-size: 3rem;
   }
-  main #content {
-    top: 30px;
+  #socials, main #content, .fixed-top, .fixed-bottom {
+    position: relative;
   }
 }
