@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it-IT">
+<html lang="it-IT" dir="ltr">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,43 +25,59 @@
     <meta name="twitter:description" content="Benvenuti nel sito di Riccardo Muzzolon, programmatore web vicentino">
     <meta name="twitter:url" content="http://riccardo-muzzolon.com">
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400%7CRoboto+Condensed:700">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/app.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bevan&display=swap">
+    <link rel="stylesheet" type="text/css" href="./css/app.min.css">
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <link rel="canonical" href="http://riccardo-muzzolon.com/">
   </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-          <div class="vcard text-center">
-            <img src="images/profile.png" width="150" alt="Avatar Riccardo Muzzolon" class="img-circle">
-            <h2>Riccardo Muzzolon</h2>
-            <p>Sito in aggiornamento...</p>
-            <div class="socials">
-              <a target="_blank" href="https://twitter.com/ricmuzzolon" class="twitter"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>
-              <a target="_blank" href="https://it.linkedin.com/in/riccardomuzzolon" class="linkedin"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a>
-              <a target="_blank" href="https://github.com/riccardomuzzolon" class="github"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github-alt fa-stack-1x fa-inverse"></i></span></a>
+  <body class="text-white">
+    <nav class="navbar fixed-top navbar-light">
+      <a class="navbar-brand sr-only" href="/">
+        <h1>Riccardo Muzzolon</h1>
+      </a>
+      <div id="socials" class="p-3">
+        <a target="_blank" href="https://twitter.com/ricmuzzolon" class="twitter" title="profilo twitter"><i class="fab fa-twitter fa-lg fa-inverse"></i></a>
+        <a target="_blank" href="https://it.linkedin.com/in/riccardomuzzolon" class="linkedin ml-3" title="profilo linkedin"><i class="fab fa-linkedin fa-lg fa-inverse"></i></a>
+      </div>
+    </nav>
+
+    <main>
+      <div id="content">
+
+        <div class="container">
+          <div class="row">
+            <div class="col col-md-8 offset-md-2">
+
+              <h1 class="animated fadeInUpBig delay-1s text-center">
+                <span>Riccardo</span>
+                <span>Muzzolon</span>
+              </h1>
+
+              <div class="text-justify animated bounceInUp delay-2s">
+                <p>Da sempre appassionato di tecnologia, fantascienza e videogiochi, di recente inizia la mia passione per titoli simulativi come DCS, Assetto Corsa e Star Citizen. In passato ho fatto parte di club di SoftAir e aeromodellismo dinamico.</p>
+                <p>Per vivere mi occupo di sviluppo web, potendo vantare più di 8 anni di esperienza nel ruolo di programmatore (backend e frontend) maturati in varie realtà, dalla piccola agenzia di web marketing alla multinazionale nel settore sanità. Maggiori informazioni sul mio profilo Linkedin.</p>
+              </div>
+
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
-          <div class="text-center">
-            <p class="h5">
-              <i class="fa fa-copyright"></i>2015 - 2021 Riccardo Muzzolon - All rights reserved.
-            </p>
-            <p class="h5 privacy">
-              <a target="_blank" href="http://www.iubenda.com/privacy-policy/544405/legal">Privacy policy</a>
-            </p>
-          </div>
-        </div>
       </div>
-    </div>
+    </main>
+
+    <footer class="fixed-bottom py-3 px-5 text-left">
+      <p class="h5 float-left">
+        <a target="_blank" class="text-reset" href="https://unsplash.com/@adrienolichon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="foto di Adrien Olichon">
+           <i class="far fa-image fa-lg fa-inverse"></i> <span class="sr-only">foto di Adrien Olichon</span>
+        </a>
+      </p>
+      <p class="h5 float-right">
+        <a target="_blank" class="text-reset" href="http://www.iubenda.com/privacy-policy/544405/legal" title="Privacy Policy">Privacy policy</a>
+      </p>
+    </footer>
   </body>
 </html>
